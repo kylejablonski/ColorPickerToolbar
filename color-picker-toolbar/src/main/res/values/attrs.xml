@@ -10,5 +10,6 @@
         </attr>
         <attr name="indicatorColor" format="color"/>
         <attr name="backgroundColor" format="color"/>
+        <attr name="minimumAlphaValue" format="integer"/>
     </declare-styleable>
 </resources>

@@ -20,9 +20,9 @@
     <com.kdotj.color_picker_toolbar.ColorPickerToolbar
         android:id="@+id/color_picker_toolbar"
         android:layout_alignParentBottom="true"
-        app:indicatorColor="@color/colorAccent"
-        app:indicatorType="bar"
+        app:indicatorColor="#FFF"
         app:backgroundColor="#333"
+        app:minimumAlphaValue="50"
         android:layout_margin="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
