@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ColorPickerToolbar</string>
+
+    <string-array name="indicators">
+        <item>None</item>
+        <item>Circle</item>
+        <item>Bar</item>
+    </string-array>
+</resources>

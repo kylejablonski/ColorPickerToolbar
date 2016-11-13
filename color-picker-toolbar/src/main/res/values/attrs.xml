@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ColorPickerToolbar">
+        <attr name="colors" format="reference"/>
+        <attr name="indicatorType" format="enum">
+            <enum name="none" value="0"/>
+            <enum name="circle" value="1"/>
+            <enum name="bar" value="2"/>
+        </attr>
+        <attr name="indicatorColor" format="color"/>
+        <attr name="backgroundColor" format="color"/>
+        <attr name="minimumAlphaValue" format="integer"/>
+    </declare-styleable>
+</resources>
