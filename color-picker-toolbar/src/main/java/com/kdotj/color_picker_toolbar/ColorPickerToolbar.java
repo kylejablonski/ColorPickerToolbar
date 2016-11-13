@@ -204,10 +204,7 @@ public class ColorPickerToolbar extends View {
             //Be whatever you want
             height = desiredHeight;
         }
-
-
-
-
+        
         setMeasuredDimension(width, height);
     }
 
@@ -300,6 +297,7 @@ public class ColorPickerToolbar extends View {
                 break;
         }
         invalidate();
+        requestLayout();
     }
 
     public void setIndicatorX(float x) {

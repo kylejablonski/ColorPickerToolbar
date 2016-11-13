@@ -8,6 +8,14 @@
     tools:context="com.kdotj.colorpickertoolbar.MainActivity"
     android:background="#EDEDED">
 
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/sp_indicator"
+        android:gravity="top"
+        android:dropDownWidth="match_parent"
+        android:entries="@array/indicators"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"/>
+
     <android.support.v7.widget.AppCompatTextView
         android:id="@+id/tv_color"
         android:textSize="24sp"
